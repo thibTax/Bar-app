@@ -13,7 +13,6 @@ const DishList: FunctionComponent = () => {
 
   return (
     <div>
-      <h1 className="center">Menu</h1>
       <div className="boxDisplay">
         {dishes.map((dish) => (
           <DishCard key={dish.id} dish={dish} />
